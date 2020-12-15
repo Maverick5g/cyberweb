@@ -1,0 +1,18 @@
+title: cyberweb
+
+author: Svitel
+
+menus:
+  主页: /
+  关于: /about
+
+links:
+  Github: https://github.com
+
+
+highlight:
+    enable: false
+    line_number: false
+    auto_detect: false
+    tab_replace:
+

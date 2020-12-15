@@ -1,0 +1,22 @@
+<div id="menu">
+    <!-- 内部链接本页面直接跳转 -->
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <% for ( menu in theme.menus) { %>
+                <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="<%- theme.menus[menu] %>"
+                   role="tab" aria-controls="nav-home" aria-selected="true">
+                    <div class="nav-img"></div>
+                    <div class="nav-title"><%- menu %></div>
+                </a>
+            <% } %>
+            <!-- 外部链接打开新的窗口跳转 -->
+            <% for ( link in theme.links ) { %>
+                <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="<%- theme.links[link] %>"
+                   role="tab" aria-controls="nav-home" aria-selected="true">
+                    <div class="nav-img-online"></div>
+                    <div class="nav-title"><%- link %></div>
+                </a>
+            <% } %>
+        </div>
+    </nav>
+</div>

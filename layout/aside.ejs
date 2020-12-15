@@ -1,0 +1,8 @@
+<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <% site.posts.forEach(function(post){ %>
+        <a class="nav-link message-item active" id="v-pills-home-tab" data-toggle="pill" href="/<%- post.path %>"
+           role="tab" aria-controls="v-pills-home" aria-selected="true">
+            <div class="message-title"><%- post.title %></div>
+        </a>
+    <% }); %>
+</div>
