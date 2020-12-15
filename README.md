@@ -18,5 +18,5 @@
 
 ### 演示图片
 
-[![rQ3Icn.jpg](https://s3.ax1x.com/2020/12/15/rQ3Icn.jpg)](https://imgchr.com/i/rQ3Icn)
+[![rQ855D.png](https://s3.ax1x.com/2020/12/15/rQ855D.png)](https://imgchr.com/i/rQ855D)
 
