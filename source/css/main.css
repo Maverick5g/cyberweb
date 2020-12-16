@@ -8,6 +8,7 @@
 body{
     background: #000;
 }
+
 a{
     color: rgb(71,212,224);
     font-size: 35px;
@@ -88,18 +89,14 @@ nav #menu {
 .nav-tabs {
     border-bottom: 1px solid rgb(123,186,181);
 }
-.center-box{
-    margin-top: 20px;
-    height: 500px;
 
-}
 .message-item{
     background: url('../img/m1.png') no-repeat;
     background-size:100% 100%;
-    height: 90px;
-    width: 350px;
     margin-bottom: 10px;
     border-radius: 0;
+    height: 75px;
+    max-height: 75px;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -114,9 +111,12 @@ nav #menu {
     padding-top: 10px;
 }
 .message-title{
+    margin-left: 20%;
+    margin-top: 5%;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
     font-size: 28px;
-    margin-left: 55px;
-    margin-top: 20px;
     font-weight: 150;
 }
 .message-title-box{
@@ -125,7 +125,6 @@ nav #menu {
     border-top: 1px solid rgb(71,212,224);
     border-bottom: 1px solid rgb(71,212,224);
 }
-
 /* #################### 侧边栏 #################### */
 
 /* #################### 文章 #################### */
@@ -152,17 +151,11 @@ nav #menu {
     color: rgb(230,219,204);
 }
 
-#post-date {
-    font-size: 20px;
-    color: rgb(237,255,251);
-    padding-left: 10px;
-}
 
 /* 文章各个元素间隔 */
 #article {
     padding: 30px;
     padding-top: 0px;
-    overflow: auto;
 }
 #article * {
     margin: 30px 0;
@@ -214,6 +207,7 @@ nav #menu {
     background: rgb(16,19,13);
     border: 1px solid rgb(12,49,53);
     /*box-shadow: 0px 0px 5px rgb(71,212,224);*/
+    white-space: inherit
 }
 
 #article p code{
